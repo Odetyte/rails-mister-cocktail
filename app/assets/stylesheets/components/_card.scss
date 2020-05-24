@@ -1,0 +1,48 @@
+$grey: #dbdbdb;
+
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  background-position: center;
+  border-radius: 20px;
+  margin: 5%;
+  transition: all .2s ease-in-out;
+
+
+}
+
+.card:hover{
+  box-shadow: 10px 10px 5px $grey;
+}
+.card-description {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-link {
+  color: white;
+  margin: 0;
+  font-size: 22px;
+  text-decoration: none !important;
+}
+
+.card-link:hover {
+  text-decoration: none !important;
+  color: #668895 !important;
+}
+
+// .card-link {
+//   position: center;
+//   top: 0;
+//   bottom: 0;
+//   right: 0;
+//   width: 100%;
+//   z-index: 2;
+//   background: black;
+//   opacity: 0;
+// }
+// .card-link:hover {
+//   opacity: 0.1;
+// }

@@ -1,12 +1,22 @@
-.navbar-lewagon {
+.banner {
+  background-size: cover;
+  background-position: auto;
+  padding: 150px 0;
+  // background-color: #2d4d36;
   justify-content: space-between;
-  background: white;
+  background-image: url("https://images.unsplash.com/photo-1508028209469-933de69c0f1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  display: flex;
+  align-items: center;
+  margin-bottom: 32px;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+ .banner p {
+  color: white;
+ }
+
+h1 {
+  color: white;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
+
+
